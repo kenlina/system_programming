@@ -1,0 +1,9 @@
+spawn Manager A
+spawn Manager B
+spawn A C
+exchange A C
+exchange Manager B
+exchange Manager C
+exchange B C
+kill A
+kill Manager

@@ -1,0 +1,42 @@
+Manager has been spawned, pid: 31705, secret: 889154002
+Manager has received spawn Manager A
+A has been spawned, pid: 31719, secret: 919747983
+Manager has spawned a new service A
+Manager has received spawn Manager B
+B has been spawned, pid: 31720, secret: 613265221
+Manager has spawned a new service B
+Manager has received spawn A C
+A has received spawn A C
+C has been spawned, pid: 31721, secret: 1380025765
+A has spawned a new service C
+Manager has received exchange A C
+A has received exchange A C
+C has received exchange A C
+A has acquired a new secret from C, value: 1380025765
+C has acquired a new secret from A, value: 919747983
+A and C have exchanged their secrets
+Manager has received exchange Manager B
+A has received exchange Manager B
+C has received exchange Manager B
+B has received exchange Manager B
+Manager has acquired a new secret from B, value: 613265221
+B has acquired a new secret from Manager, value: 889154002
+Manager and B have exchanged their secrets
+Manager has received exchange Manager C
+A has received exchange Manager C
+C has received exchange Manager C
+Manager has acquired a new secret from C, value: 919747983
+C has acquired a new secret from Manager, value: 613265221
+Manager and C have exchanged their secrets
+Manager has received exchange B C
+A has received exchange B C
+C has received exchange B C
+B has received exchange B C
+B has acquired a new secret from C, value: 613265221
+C has acquired a new secret from B, value: 889154002
+B and C have exchanged their secrets
+Manager has received kill A
+A has received kill A
+A and 1 child services are killed
+Manager has received kill Manager
+Manager and 1 child services are killed
